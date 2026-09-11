@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Artemisa Streamer Agency | Representantes Oficiales de LAYLA en LATAM &amp; Brasil</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Cinzel Decorative, Playfair Display & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Alex+Brush&amp;display=swap" rel="stylesheet"/>
+<!-- FontAwesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<!-- Tailwind Custom Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            midnight: '#07030d',
+            obsidian: '#0d0718',
+            purpleGlow: '#802bb1',
+            neonViolet: '#b845ed',
+            gold: {
+              300: '#FFE57F',
+              400: '#FFD700',
+              500: '#D4AF37',
+              600: '#AA820A',
+              700: '#7B5E00'
+            }
+          },
+          fontFamily: {
+            cinzel: ['Cinzel', 'serif'],
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            script: ['Alex Brush', 'cursive']
+          },
+          boxShadow: {
+            'gold-glow': '0 0 35px -5px rgba(212, 175, 55, 0.35)',
+            'purple-glow': '0 0 45px -5px rgba(184, 69, 237, 0.35)',
+            'neon-strong': '0 0 60px rgba(128, 43, 177, 0.45)'
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="custom-typography">
+    .text-gold-gradient {
+  background: linear-gradient(135deg, #FFF099 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Respaldo para navegadores antiguos */
+}
+
+.text-purple-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #f1bfff 50%, #c468ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Respaldo para navegadores antiguos */
+}
+    .text-script-gold {
+      font-family: 'Alex Brush', cursive;
+      letter-spacing: 1px;
+    }
+  </style>
+<style data-purpose="luxury-glassmorphism">
+    .glass-card {
+      background: rgba(22, 13, 39, 0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.18);
+    }
+    .glass-card-hover {
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-5px);
+      border-color: rgba(212, 175, 55, 0.55);
+      box-shadow: 0 15px 35px -10px rgba(184, 69, 237, 0.3), 0 0 20px rgba(212, 175, 55, 0.2);
+    }
+    .gold-border-gradient {
+      border-image: linear-gradient(to bottom right, #FFD700, rgba(212, 175, 55, 0.2), #AA820A) 1;
+    }
+  </style>
+<style data-purpose="background-lighting">
+    .ambient-halo-1 {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(147, 51, 234, 0.22) 0%, rgba(13, 7, 24, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .ambient-halo-gold {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, rgba(13, 7, 24, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-8px) scale(1.02); }
+    }
+    .animate-float {
+      animation: floatSlow 5s ease-in-out infinite;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.4)); }
+      50% { opacity: 1; filter: drop-shadow(0 0 28px rgba(212, 175, 55, 0.8)); }
+    }
+    .animate-pulse-glow {
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-midnight text-slate-100 font-sans selection:bg-purpleGlow selection:text-white relative overflow-x-hidden min-h-screen">
+<!-- Ambient background glow elements -->
+<div class="ambient-halo-1"></div>
+<div class="ambient-halo-gold top-[800px] right-0"></div>
+<div class="ambient-halo-1 top-[1800px] left-[-200px]"></div>
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-midnight/90 backdrop-blur-md border-b border-gold-500/20 px-6 lg:px-12 py-3 transition-all">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<!-- Brand Monogram & Title -->
+<a class="flex items-center gap-3.5 group" href="#">
+<div class="relative flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-b from-amber-200/10 to-amber-900/30 border border-gold-500/40 group-hover:border-gold-400 shadow-gold-glow transition-all">
+<i class="fa-solid fa-crown text-gold-400 text-xs absolute -top-1"></i>
+<span class="font-cinzel text-2xl font-black text-gold-400">A</span>
+</div>
+<div class="flex flex-col">
+<span class="font-cinzel text-base tracking-[0.22em] font-bold text-white flex items-center gap-1.5">
+            ARTEMISA
+            <span class="text-[9px] px-1.5 py-0.5 rounded bg-gold-500/20 text-gold-300 font-sans tracking-normal border border-gold-500/30">TOP 1</span>
+</span>
+<span class="text-[10px] tracking-[0.28em] text-purple-300/80 uppercase font-semibold">Streamer Agency</span>
+</div>
+</a>
+<!-- Navigation Links -->
+<nav class="hidden xl:flex items-center gap-7 text-xs tracking-wider uppercase font-medium text-gray-300">
+<a class="hover:text-gold-300 transition-colors py-1" href="#hero">Inicio</a>
+<a class="hover:text-gold-300 transition-colors py-1" href="#beneficios">¿Qué Recibirás?</a>
+<a class="hover:text-gold-300 transition-colors py-1" href="#vip">Mentoría VIP</a>
+<a class="hover:text-gold-300 transition-colors py-1 text-gold-400 font-bold flex items-center gap-1.5" href="#ganancias">
+<span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-ping"></span>
+          Ganancias (24% - 40%)
+        </a>
+<a class="hover:text-gold-300 transition-colors py-1" href="#evaluacion">Postular Agencia</a>
+</nav>
+<!-- CTA Button Header (WhatsApp) -->
+<div class="flex items-center gap-3">
+<button class="relative inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-semibold text-xs tracking-wide uppercase text-midnight bg-gradient-to-r from-amber-300 via-gold-400 to-amber-500 hover:from-amber-200 hover:to-gold-300 shadow-lg shadow-gold-500/25 transition-all duration-300 hover:scale-[1.03] active:scale-95 group" onclick="contactWhatsApp('¡Hola Artemisa! Deseo postular mi agencia / streamers a Layla con su representación.')">
+<i class="fa-brands fa-whatsapp text-base group-hover:scale-110 transition-transform text-midnight"></i>
+<span>Postular por WhatsApp</span>
+</button>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-12 pb-20 lg:pt-16 lg:pb-28 overflow-hidden" id="hero">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<!-- Top Authority Badges -->
+<div class="flex flex-wrap items-center justify-center gap-3 mb-8">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-950/60 border border-purple-500/30 text-purple-200 text-xs tracking-wider uppercase font-medium backdrop-blur-sm">
+<i class="fa-solid fa-trophy text-gold-400"></i>
+<span>3 Años Consecutivos Destacándonos en Latinoamérica</span>
+</div>
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-950/30 border border-gold-500/30 text-gold-300 text-xs tracking-wider uppercase font-medium backdrop-blur-sm">
+<i class="fa-solid fa-certificate text-gold-400"></i>
+<span>Representantes Oficiales de LAYLA en Brasil &amp; LATAM</span>
+</div>
+</div>
+<!-- Grid Container: Content & Visual Trophy -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Column: Copy & Value Proposition -->
+<div class="lg:col-span-7 text-center lg:text-left">
+<div class="mb-4">
+<span class="inline-block font-cinzel text-xs md:text-sm tracking-[0.35em] text-gold-400 font-extrabold uppercase mb-2">
+                LIDERA • CRECE • GANA
+              </span>
+<h1 class="text-4xl sm:text-6xl xl:text-7xl font-cinzel font-black tracking-tight leading-[1.08] text-white">
+                AGREGA <br/>
+<span class="text-purple-gradient text-5xl sm:text-7xl xl:text-8xl drop-shadow-[0_0_35px_rgba(184,69,237,0.4)]">LAYLA</span> <br/>
+<span class="text-script-gold text-4xl sm:text-6xl xl:text-7xl lowercase font-normal text-amber-300 drop-shadow-md block mt-1">a tu agencia</span>
+</h1>
+</div>
+<p class="text-base sm:text-xl text-gray-300 font-light max-w-xl mx-auto lg:mx-0 leading-relaxed my-6">
+              Trabaja junto a una de las <strong class="font-semibold text-white">estructuras más sólidas y rentables de LATAM</strong>. Maximiza la facturación de tus streamers con respaldo oficial, coaching y soporte prioritario.
+            </p>
+<!-- Revenue highlight pill -->
+<div class="glass-card rounded-2xl p-4 sm:p-5 max-w-lg mx-auto lg:mx-0 mb-8 border border-gold-500/30 bg-gradient-to-r from-purple-950/40 via-midnight to-amber-950/30">
+<div class="flex items-center justify-between gap-4">
+<div>
+<span class="block text-[11px] uppercase tracking-widest text-gray-400">Sistema de Ganancias</span>
+<span class="text-xs uppercase text-gold-300 font-medium">Margen Directo de Agencia:</span>
+</div>
+<div class="text-right">
+<span class="text-xs text-gray-300 uppercase mr-1 font-bold">DEL</span>
+<span class="font-cinzel text-2xl sm:text-3xl font-extrabold text-gold-400">24%</span>
+<span class="text-xs text-purple-300 uppercase mx-1 font-bold">HASTA</span>
+<span class="font-cinzel text-3xl sm:text-4xl font-extrabold text-purple-300">40%</span>
+</div>
+</div>
+</div>
+<!-- Call to Actions -->
+<div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+<button class="w-full sm:w-auto px-8 py-4 rounded-xl text-midnight font-bold tracking-wider uppercase text-xs md:text-sm bg-gradient-to-r from-amber-300 via-gold-400 to-amber-500 hover:from-amber-200 hover:to-amber-400 shadow-gold-glow flex items-center justify-center gap-3 transition-all transform hover:-translate-y-0.5" onclick="contactWhatsApp('Hola, me interesa agregar LAYLA a mi agencia streamer y conocer las condiciones de ingreso.')">
+<i class="fa-brands fa-whatsapp text-lg text-midnight"></i>
+<span>¡Únete a la Agencia por WhatsApp!</span>
+</button>
+<a class="w-full sm:w-auto px-7 py-4 rounded-xl text-gray-200 font-semibold tracking-wider uppercase text-xs md:text-sm border border-purple-500/30 hover:border-gold-500/60 bg-white/5 hover:bg-white/10 transition-all text-center" href="#ganancias">
+                Ver Escala de Ganancias
+              </a>
+</div>
+<!-- Trust micro indicators -->
+<div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-center lg:justify-start gap-6 text-xs text-gray-400">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-circle-check text-gold-400"></i>
+<span>Pagos directos y puntuales</span>
+</div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-shield-halved text-purple-400"></i>
+<span>Agencia Representante Oficial</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Trophy Representation identical to Reference Image -->
+<div class="lg:col-span-5 flex justify-center items-center relative">
+<!-- Glow background around trophy -->
+<div class="absolute inset-0 bg-purple-600/20 blur-3xl rounded-full transform scale-90 pointer-events-none"></div>
+<!-- Trophy Showcase Card -->
+<div class="relative w-full max-w-sm sm:max-w-md glass-card rounded-3xl p-6 sm:p-8 border border-gold-500/30 shadow-2xl flex flex-col items-center text-center overflow-hidden">
+<!-- Neon lips aesthetic accent on background -->
+<div class="absolute top-4 right-4 opacity-30 text-neonViolet blur-[0.5px]">
+<i class="fa-solid fa-kiss-wink-heart text-3xl"></i>
+</div>
+<div class="absolute top-16 right-6 opacity-25 text-pink-500">
+<i class="fa-solid fa-heart text-xl"></i>
+</div>
+<!-- Laurel Wreath & Number 1 Trophy Visual -->
+<div class="relative my-4 flex flex-col items-center animate-float">
+<!-- Laurels and Crown -->
+<div class="relative flex items-center justify-center">
+<div class="w-48 h-48 rounded-full border border-gold-500/20 flex items-center justify-center relative bg-gradient-to-b from-amber-500/10 to-transparent">
+<!-- Laurel leaf accents -->
+<i class="fa-solid fa-award text-8xl text-gold-400 drop-shadow-[0_0_25px_rgba(212,175,55,0.6)]"></i>
+<!-- Superimposed Number 1 -->
+<span class="absolute font-cinzel text-5xl font-black text-slate-950 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)]">
+                      1
+                    </span>
+</div>
+</div>
+<!-- Crystal Column representation -->
+<div class="w-16 h-28 bg-gradient-to-b from-white/30 via-purple-300/10 to-white/20 border-x border-white/40 shadow-inner backdrop-blur-md rounded-t-sm flex items-center justify-center relative -mt-4">
+<div class="w-2 h-full bg-white/40 blur-[1px]"></div>
+</div>
+<!-- Trophy Base Plaque identical to poster -->
+<div class="w-60 bg-gradient-to-b from-stone-900 via-black to-stone-950 border-2 border-gold-500/60 rounded-md p-3 shadow-2xl relative -mt-1 transform hover:scale-105 transition-transform">
+<div class="absolute -top-2 left-1/2 -translate-x-1/2 bg-amber-400 text-midnight text-[9px] font-black uppercase px-2 py-0.5 rounded shadow">
+                    Oficial
+                  </div>
+<h4 class="font-cinzel text-lg font-extrabold tracking-widest text-gold-300">LAYLA</h4>
+<p class="text-[10px] tracking-[0.25em] text-gray-300 uppercase font-semibold">TOP 1 AGENCIA ARTEMISA</p>
+</div>
+</div>
+<!-- Highlights under trophy -->
+<div class="w-full grid grid-cols-2 gap-3 mt-6 pt-4 border-t border-white/10 text-left">
+<div class="p-2.5 rounded-lg bg-black/40 border border-purple-500/20">
+<div class="flex items-center gap-1.5 text-gold-400 text-xs font-bold font-cinzel">
+<i class="fa-solid fa-crown text-[10px]"></i> #1 En LATAM
+                  </div>
+<p class="text-[11px] text-gray-400 mt-1">Líderes en facturación y retención de talento.</p>
+</div>
+<div class="p-2.5 rounded-lg bg-black/40 border border-purple-500/20">
+<div class="flex items-center gap-1.5 text-purple-300 text-xs font-bold font-cinzel">
+<i class="fa-solid fa-globe text-[10px]"></i> Brasil &amp; LATAM
+                  </div>
+<p class="text-[11px] text-gray-400 mt-1">Gestión multiregional y soporte en español y portugués.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: ValueSnapshotBar -->
+<section class="border-y border-gold-500/20 bg-gradient-to-r from-obsidian via-midnight to-obsidian py-6 relative z-10">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+<div>
+<span class="font-cinzel text-2xl md:text-3xl font-bold text-gold-400 block">+3 Años</span>
+<span class="text-xs uppercase tracking-wider text-gray-400 font-medium">Liderazgo Continuo</span>
+</div>
+<div>
+<span class="font-cinzel text-2xl md:text-3xl font-bold text-purple-300 block">24% a 40%</span>
+<span class="text-xs uppercase tracking-wider text-gray-400 font-medium">Comisión Neta Agencia</span>
+</div>
+<div>
+<span class="font-cinzel text-2xl md:text-3xl font-bold text-gold-400 block">24/7</span>
+<span class="text-xs uppercase tracking-wider text-gray-400 font-medium">Soporte Operativo VIP</span>
+</div>
+<div>
+<span class="font-cinzel text-2xl md:text-3xl font-bold text-purple-300 block">Oficial</span>
+<span class="text-xs uppercase tracking-wider text-gray-400 font-medium">Directamente con LAYLA</span>
+</div>
+</div>
+</section>
+<!-- END: ValueSnapshotBar -->
+<!-- BEGIN: BenefitsSection -->
+<section class="py-24 relative z-10" id="beneficios">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="flex items-center justify-center gap-3 mb-3">
+<span class="h-[1px] w-10 bg-gold-500/40"></span>
+<span class="text-xs font-cinzel uppercase tracking-[0.3em] text-gold-400 font-bold">Respaldo Integral</span>
+<span class="h-[1px] w-10 bg-gold-500/40"></span>
+</div>
+<h2 class="text-3xl md:text-5xl font-cinzel font-bold text-white tracking-tight">
+            ¿QUÉ RECIBIRÁS AL SUMARTE?
+          </h2>
+<p class="text-gray-400 text-sm md:text-base mt-3">
+            Todo el ecosistema técnico, metodológico y estratégico para que tu agencia comience a facturar con Layla desde la primera semana.
+          </p>
+</div>
+<!-- Benefits Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Benefit 1: Material de Apoyo -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-purple-900/40 border border-purple-400/30 flex items-center justify-center mb-5 text-purple-300 text-2xl shadow-purple-glow">
+<i class="fa-solid fa-book-open"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">MATERIAL DE APOYO</h3>
+<span class="inline-block text-[11px] font-semibold text-gold-400 uppercase tracking-wider mb-3">100% En Español &amp; Portugués</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                Manuales completos de configuración, guías de reglas y normativas de Layla, guiones de captación y plantillas de seguimiento administrativo probadas.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-purple-300">
+<span>Guías descargables</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Benefit 2: Capacitación VIP -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
+<div>
+<div class="w-14 h-14 rounded-2xl bg-amber-900/30 border border-gold-400/40 flex items-center justify-center mb-5 text-gold-300 text-2xl shadow-gold-glow">
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">CAPACITACIÓN VIP</h3>
+<span class="inline-block text-[11px] font-semibold text-purple-300 uppercase tracking-wider mb-3">Para Agencias y Streamers</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                Sesiones tácticas para directores de agencia y streamers sobre retención en pantalla, dinámicas de en vivo, regalos virtuales y escalamiento de ingresos.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-gold-400">
+<span>Workshops semanales</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Benefit 3: Soporte Personalizado -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-purple-900/40 border border-purple-400/30 flex items-center justify-center mb-5 text-purple-300 text-2xl shadow-purple-glow">
+<i class="fa-solid fa-headset"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">SOPORTE PERSONALIZADO</h3>
+<span class="inline-block text-[11px] font-semibold text-gold-400 uppercase tracking-wider mb-3">Para ti y todo tu equipo</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                Canal directo con un Agency Manager asignado. Solución rápida de dudas sobre pagos, apelaciones de cuentas, desbaneos y consultas técnicas prioritarias.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-purple-300">
+<span>Línea dedicada</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Benefit 4: Estrategias de Monetización -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-amber-900/30 border border-gold-400/40 flex items-center justify-center mb-5 text-gold-300 text-2xl shadow-gold-glow">
+<i class="fa-solid fa-comments-dollar"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">ESTRATEGIAS DE MONETIZACIÓN</h3>
+<span class="inline-block text-[11px] font-semibold text-purple-300 uppercase tracking-wider mb-3">Técnicas de Mensajería y Gifting</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                Aprende los protocolos que usan las streamers top en Layla para convertir usuarios espectadores en fieles donadores de diamantes y regalos de alto nivel.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-gold-400">
+<span>Scripts &amp; psicología de streaming</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Benefit 5: Escalado de Equipos -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-purple-900/40 border border-purple-400/30 flex items-center justify-center mb-5 text-purple-300 text-2xl shadow-purple-glow">
+<i class="fa-solid fa-users-gear"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">ESTRUCTURACIÓN DE TALENTO</h3>
+<span class="inline-block text-[11px] font-semibold text-gold-400 uppercase tracking-wider mb-3">Reclutamiento y Retención</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                Asesoría para convocar streamers desde Instagram, TikTok y Bigo, organizarlas por turnos de transmisión y reducir el abandono mediante incentivos eficaces.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-purple-300">
+<span>Sistemas probados de escala</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Benefit 6: Consultoría Operativa -->
+<div class="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border-gold-500/20">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-amber-900/30 border border-gold-400/40 flex items-center justify-center mb-5 text-gold-300 text-2xl shadow-gold-glow">
+<i class="fa-solid fa-handshake-angle"></i>
+</div>
+<h3 class="font-cinzel text-lg font-bold text-white mb-2">ACOMPAÑAMIENTO REAL</h3>
+<span class="inline-block text-[11px] font-semibold text-purple-300 uppercase tracking-wider mb-3">Alianza a largo plazo</span>
+<p class="text-gray-400 text-xs md:text-sm leading-relaxed">
+                No te dejamos solo con un panel. Revisamos periódicamente los reportes de tu agencia para identificar anomalías, maximizar metas y desbloquear bonificaciones.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-gold-400">
+<span>Crecimiento asistido</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: BenefitsSection -->
+<!-- BEGIN: VipMentorshipSection -->
+<section class="py-16 relative z-10" id="vip">
+<div class="max-w-5xl mx-auto px-6 lg:px-8">
+<div class="glass-card rounded-3xl p-8 md:p-12 border-2 border-gold-500/40 relative overflow-hidden bg-gradient-to-br from-purple-950/60 via-midnight to-amber-950/40 shadow-2xl">
+<!-- Golden decorative elements -->
+<div class="absolute -top-12 -right-12 w-48 h-48 bg-gold-400/10 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 bg-purple-600/15 rounded-full blur-2xl"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold-500/20 border border-gold-400/40 text-gold-300 text-xs font-bold uppercase tracking-wider mb-4">
+<i class="fa-solid fa-crown text-gold-400"></i> Programa de Alto Rendimiento
+              </div>
+<h3 class="text-2xl sm:text-3xl md:text-4xl font-cinzel font-bold text-white leading-tight">
+                MENTORÍA &amp; CAPACITACIÓN <br/>
+<span class="text-gold-gradient">VIP MENSUAL ARTEMISA</span>
+</h3>
+<p class="text-gray-300 text-sm md:text-base mt-3 max-w-xl leading-relaxed">
+                Acceso exclusivo y privado para agencias con más de <strong class="text-gold-300">20 streamers activas</strong>. Sesiones 1 a 1 de optimización de ingresos con la dirección de Artemisa y gerentes de Layla.
+              </p>
+<ul class="mt-5 space-y-2 text-xs md:text-sm text-gray-300">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-gold-400"></i> Auditoría personalizada de transmisiones y métricas de retención.
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-gold-400"></i> Bonificaciones por cumplimiento de hitos de diamantes.
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-gold-400"></i> Prioridad en eventos de la app y banners oficiales.
+                </li>
+</ul>
+</div>
+<!-- VIP Badge / Action button -->
+<div class="flex flex-col items-center justify-center p-6 rounded-2xl bg-black/60 border border-gold-500/30 text-center min-w-[240px]">
+<i class="fa-solid fa-gem text-4xl text-purple-400 mb-3 animate-pulse"></i>
+<span class="text-xs uppercase tracking-widest text-gray-400">Exclusividad</span>
+<span class="font-cinzel text-xl font-bold text-gold-400 mt-1">Tier Elite Layla</span>
+<p class="text-[11px] text-gray-400 mt-1 mb-4">Aplica automáticamente al cumplir el umbral de 20 streamers activas.</p>
+<button class="w-full py-2.5 px-4 rounded-lg bg-gold-500 hover:bg-gold-400 text-midnight font-bold text-xs uppercase tracking-wider transition-colors shadow" onclick="contactWhatsApp('Hola, represento una agencia con más de 20 streamers y deseo postular al programa VIP Artemisa.')">
+                Postular para VIP
+              </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: VipMentorshipSection -->
+<!-- BEGIN: RevenueCommissionSection -->
+<section class="py-20 relative z-10" id="ganancias">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Heading -->
+<div class="text-center max-w-3xl mx-auto mb-14">
+<div class="inline-block px-3 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-xs font-semibold uppercase tracking-widest mb-3">
+            Transparencia &amp; Rentabilidad
+          </div>
+<h2 class="text-3xl md:text-5xl font-cinzel font-bold text-white tracking-tight">
+            SISTEMA DE GANANCIAS DEL <span class="text-gold-gradient">24% HASTA EL 40%</span>
+</h2>
+<p class="text-gray-400 text-sm md:text-base mt-3">
+            El plan de comisiones más competitivo de la industria del live streaming en Latinoamérica. Calcula tu proyección estimada según tu volumen de streamers.
+          </p>
+</div>
+<!-- Commission Interactive Simulator & Tier Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Interactive Tier Calculator -->
+<div class="lg:col-span-6 glass-card rounded-3xl p-7 sm:p-9 border border-gold-500/30 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
+<div>
+<h4 class="font-cinzel text-xl font-bold text-white">Simulador de Comisiones</h4>
+<p class="text-xs text-gray-400">Ajusta la cantidad de streamers activas</p>
+</div>
+<div class="px-3 py-1 rounded bg-purple-900/40 border border-purple-400/30 text-purple-300 text-xs font-bold uppercase">
+                  Agencia Oficial
+                </div>
+</div>
+<!-- Streamers Slider -->
+<div class="space-y-4 mb-8">
+<div class="flex justify-between items-center text-sm">
+<label class="font-medium text-gray-300" for="streamerRange">Cantidad estimada de Streamers:</label>
+<span class="font-cinzel text-xl font-bold text-gold-400" id="streamerCountDisplay">12 Streamers</span>
+</div>
+<input class="w-full h-2 bg-gray-800 rounded-lg appearance-none cursor-pointer accent-amber-400 focus:outline-none" id="streamerRange" max="100" min="1" type="range" value="12"/>
+<div class="flex justify-between text-[11px] text-gray-400 font-medium">
+<span>1 streamer (Inicio)</span>
+<span>50 streamers (Elite)</span>
+<span>100+ (Master)</span>
+</div>
+</div>
+<!-- Commission Rate Output -->
+<div class="p-6 rounded-2xl bg-black/50 border border-purple-500/30 space-y-4 mb-6">
+<div class="flex justify-between items-center">
+<span class="text-xs uppercase tracking-wider text-gray-300">Nivel Asignado:</span>
+<span class="text-xs font-bold uppercase text-purple-300 tracking-wider" id="tierLevelDisplay">Tier Pro (Plata)</span>
+</div>
+<div class="flex justify-between items-baseline">
+<span class="text-sm font-semibold text-gray-200">Porcentaje de Comisión:</span>
+<div class="text-right">
+<span class="font-cinzel text-4xl font-extrabold text-gold-400" id="commissionRateDisplay">28%</span>
+<span class="text-xs text-gray-400 block">sobre puntos/diamantes</span>
+</div>
+</div>
+<div class="text-[11px] text-gray-400 pt-3 border-t border-white/5 leading-relaxed">
+                  * Las comisiones se liquidan directamente bajo el esquema transparente oficial de Layla. Pagos regulares sin retenciones injustificadas.
+                </div>
+</div>
+</div>
+<button class="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-400 to-gold-500 hover:from-amber-300 hover:to-gold-400 text-midnight font-bold text-xs uppercase tracking-wider transition-all shadow-gold-glow flex items-center justify-center gap-2" onclick="requestCalculatedTier()">
+<i class="fa-brands fa-whatsapp text-base"></i>
+<span>Consultar este porcentaje por WhatsApp</span>
+</button>
+</div>
+<!-- Tiers Breakdown -->
+<div class="lg:col-span-6 space-y-4 flex flex-col justify-center">
+<!-- Tier 1 -->
+<div class="glass-card rounded-2xl p-5 border border-purple-500/20 hover:border-gold-500/40 transition-all flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-purple-900/30 border border-purple-500/30 flex items-center justify-center text-purple-300 font-cinzel font-bold text-lg">
+                  24%
+                </div>
+<div>
+<h5 class="font-bold text-white text-sm uppercase tracking-wide">Fase Inicial / Apertura</h5>
+<p class="text-xs text-gray-400">De 1 a 5 streamers activas en el mes.</p>
+</div>
+</div>
+<span class="text-[11px] font-semibold text-gray-400 uppercase bg-white/5 px-2.5 py-1 rounded">Base Garantizada</span>
+</div>
+<!-- Tier 2 -->
+<div class="glass-card rounded-2xl p-5 border border-purple-500/20 hover:border-gold-500/40 transition-all flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-400/40 flex items-center justify-center text-purple-200 font-cinzel font-bold text-lg">
+                  28%
+                </div>
+<div>
+<h5 class="font-bold text-white text-sm uppercase tracking-wide">Fase Crecimiento</h5>
+<p class="text-xs text-gray-400">De 6 a 15 streamers activas con horas meta.</p>
+</div>
+</div>
+<span class="text-[11px] font-semibold text-purple-300 uppercase bg-purple-500/10 px-2.5 py-1 rounded">Más Popular</span>
+</div>
+<!-- Tier 3 -->
+<div class="glass-card rounded-2xl p-5 border border-gold-500/30 bg-gradient-to-r from-midnight to-amber-950/20 hover:border-gold-400 transition-all flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-300 font-cinzel font-bold text-lg shadow-gold-glow">
+                  34%
+                </div>
+<div>
+<h5 class="font-bold text-white text-sm uppercase tracking-wide">Escala Avanzada</h5>
+<p class="text-xs text-gray-400">De 16 a 35 streamers activas continuas.</p>
+</div>
+</div>
+<span class="text-[11px] font-semibold text-gold-300 uppercase bg-gold-500/10 border border-gold-500/20 px-2.5 py-1 rounded">VIP Artemisa</span>
+</div>
+<!-- Tier 4 -->
+<div class="glass-card rounded-2xl p-5 border-2 border-gold-400/50 bg-gradient-to-r from-purple-950/40 via-midnight to-gold-950/30 hover:border-gold-300 transition-all flex items-center justify-between shadow-gold-glow">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-gold-400 text-midnight flex items-center justify-center font-cinzel font-black text-xl shadow-lg">
+                  40%
+                </div>
+<div>
+<div class="flex items-center gap-1.5">
+<h5 class="font-bold text-gold-300 text-sm uppercase tracking-wide">Master Agency (Top 1)</h5>
+<i class="fa-solid fa-crown text-gold-400 text-xs"></i>
+</div>
+<p class="text-xs text-gray-300">Más de 35 streamers y volumen premium en Layla.</p>
+</div>
+</div>
+<span class="text-[11px] font-extrabold text-midnight uppercase bg-gold-400 px-3 py-1 rounded shadow">Margen Máximo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: RevenueCommissionSection -->
+<!-- BEGIN: PlatformProfilesAndEvaluationSection -->
+<section class="py-24 relative z-10 border-t border-purple-500/20 bg-gradient-to-b from-midnight via-obsidian to-midnight" id="evaluacion">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Column: Official Social & Community Channels -->
+<div class="lg:col-span-5 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950 border border-purple-500/30 text-purple-300 text-xs font-semibold uppercase tracking-wider">
+<i class="fa-solid fa-network-wired"></i> Canales Oficiales Artemisa
+            </div>
+<h2 class="text-3xl sm:text-4xl font-cinzel font-bold text-white leading-tight">
+              Conéctate a nuestras <span class="text-gold-gradient">Plataformas &amp; Redes</span>
+</h2>
+<p class="text-gray-300 text-sm leading-relaxed">
+              Sigue nuestros canales para anuncios de actualizaciones de Layla, eventos especiales, dinámicas de premios en vivo y testimonios de agencias asociadas.
+            </p>
+<!-- Social Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+<!-- Instagram Card -->
+<a class="p-4 rounded-xl glass-card border border-white/10 hover:border-pink-500/50 transition-all flex items-center gap-3 group" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-pink-600/20 border border-pink-500/40 text-pink-400 flex items-center justify-center text-lg group-hover:scale-110 transition-transform">
+<i class="fa-brands fa-instagram"></i>
+</div>
+<div>
+<span class="block text-xs font-bold text-white">Instagram</span>
+<span class="text-[11px] text-gray-400">@artemisastreamers</span>
+</div>
+</a>
+<!-- TikTok Card -->
+<a class="p-4 rounded-xl glass-card border border-white/10 hover:border-cyan-500/50 transition-all flex items-center gap-3 group" href="https://tiktok.com" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-cyan-600/20 border border-cyan-500/40 text-cyan-400 flex items-center justify-center text-lg group-hover:scale-110 transition-transform">
+<i class="fa-brands fa-tiktok"></i>
+</div>
+<div>
+<span class="block text-xs font-bold text-white">TikTok</span>
+<span class="text-[11px] text-gray-400">@artemisa.agency</span>
+</div>
+</a>
+<!-- Telegram Card -->
+<a class="p-4 rounded-xl glass-card border border-white/10 hover:border-sky-500/50 transition-all flex items-center gap-3 group" href="https://telegram.org" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-sky-600/20 border border-sky-500/40 text-sky-400 flex items-center justify-center text-lg group-hover:scale-110 transition-transform">
+<i class="fa-brands fa-telegram"></i>
+</div>
+<div>
+<span class="block text-xs font-bold text-white">Canal Telegram</span>
+<span class="text-[11px] text-gray-400">Avisos &amp; Tablas Layla</span>
+</div>
+</a>
+<!-- WhatsApp Community -->
+<a class="p-4 rounded-xl glass-card border border-white/10 hover:border-green-500/50 transition-all flex items-center gap-3 group" href="https://chat.whatsapp.com" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-green-600/20 border border-green-500/40 text-green-400 flex items-center justify-center text-lg group-hover:scale-110 transition-transform">
+<i class="fa-brands fa-whatsapp"></i>
+</div>
+<div>
+<span class="block text-xs font-bold text-white">Comunidad Oficial</span>
+<span class="text-[11px] text-gray-400">Directores de Agencia</span>
+</div>
+</a>
+</div>
+<!-- Official Badge notice -->
+<div class="p-4 rounded-xl bg-purple-950/40 border border-purple-500/30 flex items-start gap-3 mt-4">
+<i class="fa-solid fa-circle-check text-gold-400 mt-0.5 text-base"></i>
+<p class="text-xs text-gray-300">
+<strong class="text-white">Verificación Oficial:</strong> Artemisa cuenta con ID de Agencia Matriz avalada directamente en los servidores de Layla Latinoamérica y Brasil.
+              </p>
+</div>
+</div>
+<!-- Right Column: Interactive Evaluation Form -->
+<div class="lg:col-span-7">
+<div class="glass-card rounded-3xl p-8 md:p-10 border-2 border-gold-500/30 shadow-2xl relative">
+<div class="mb-6">
+<h3 class="text-xl sm:text-2xl font-cinzel font-bold text-white">
+                  Módulo de Evaluación Directa
+                </h3>
+<p class="text-xs sm:text-sm text-gray-400 mt-1">
+                  Ingresa los datos de tu agencia o perfil de streamer para que nuestro equipo analice tu perfil y te dé de alta en Layla en menos de 24 horas.
+                </p>
+</div>
+<form class="space-y-4" id="agencyEvaluationForm" onsubmit="handleEvaluationSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Name / Agency Name -->
+<div>
+<label class="block text-xs uppercase font-semibold text-gray-300 mb-1.5" for="evalName">
+                      Nombre / Nombre de Agencia *
+                    </label>
+<input class="w-full px-4 py-3 rounded-xl bg-midnight/80 border border-white/10 text-white placeholder-gray-500 text-sm focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-colors" id="evalName" placeholder="Ej: Artemisa Nova Agency" required="" type="text"/>
+</div>
+<!-- WhatsApp Contact -->
+<div>
+<label class="block text-xs uppercase font-semibold text-gray-300 mb-1.5" for="evalPhone">
+                      Número de WhatsApp con Código de País *
+                    </label>
+<input class="w-full px-4 py-3 rounded-xl bg-midnight/80 border border-white/10 text-white placeholder-gray-500 text-sm focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-colors" id="evalPhone" placeholder="+52 / +57 / +55 / +54..." required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Country / Region -->
+<div>
+<label class="block text-xs uppercase font-semibold text-gray-300 mb-1.5" for="evalCountry">
+                      País Principal de Operación *
+                    </label>
+<select class="w-full px-4 py-3 rounded-xl bg-midnight/90 border border-white/10 text-white text-sm focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-colors" id="evalCountry" required="">
+<option value="México">México</option>
+<option value="Colombia">Colombia</option>
+<option value="Brasil">Brasil</option>
+<option value="Argentina">Argentina</option>
+<option value="Perú">Perú</option>
+<option value="Chile">Chile</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Otro país de LATAM">Otro país de LATAM</option>
+</select>
+</div>
+<!-- Profile / Streamers Volume -->
+<div>
+<label class="block text-xs uppercase font-semibold text-gray-300 mb-1.5" for="evalType">
+                      Tipo de Postulación *
+                    </label>
+<select class="w-full px-4 py-3 rounded-xl bg-midnight/90 border border-white/10 text-white text-sm focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-colors" id="evalType" required="">
+<option value="Agencia con experiencia (5 a 20 streamers)">Agencia con experiencia (5 a 20 streamers)</option>
+<option value="Agencia consolidada (+20 streamers / VIP)">Agencia consolidada (+20 streamers / VIP)</option>
+<option value="Nueva Agencia (Iniciando desde cero)">Nueva Agencia (Iniciando desde cero)</option>
+<option value="Streamer Individual de Alto Rendimiento">Streamer Individual de Alto Rendimiento</option>
+</select>
+</div>
+</div>
+<!-- Social Profile URL or IDs -->
+<div>
+<label class="block text-xs uppercase font-semibold text-gray-300 mb-1.5" for="evalProfiles">
+                    Enlaces de Perfiles (Instagram / TikTok / Bigo ID / Layla ID si ya tienes) *
+                  </label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-midnight/80 border border-white/10 text-white placeholder-gray-500 text-sm focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-colors" id="evalProfiles" placeholder="Pega los enlaces a tus perfiles, IDs de streaming actuales o usuarios en redes..." required="" rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 rounded-xl bg-gradient-to-r from-amber-300 via-gold-400 to-amber-500 hover:from-amber-200 hover:to-gold-300 text-midnight font-black uppercase tracking-wider text-sm shadow-gold-glow transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3" type="submit">
+<i class="fa-solid fa-paper-plane text-midnight"></i>
+<span>Enviar Perfil para Aprobación Inmediata</span>
+</button>
+</form>
+<!-- Feedback message container (hidden by default) -->
+<div class="hidden mt-4 p-4 rounded-xl bg-green-900/30 border border-green-500/40 text-green-300 text-xs text-center" id="formFeedback"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PlatformProfilesAndEvaluationSection -->
+<!-- BEGIN: AgencyPhilosophySection -->
+<section class="py-24 relative z-10 overflow-hidden bg-midnight text-center">
+<div class="max-w-4xl mx-auto px-6 lg:px-12 relative z-10">
+<i class="fa-solid fa-crown text-gold-400 text-3xl mb-4"></i>
+<p class="font-cinzel text-xs md:text-sm tracking-[0.35em] text-gray-300 uppercase font-semibold mb-2">
+          Nuestra Filosofía de Agencia
+        </p>
+<p class="text-2xl sm:text-4xl md:text-5xl font-cinzel font-black text-white leading-tight">
+          AQUÍ NO SOLO CREAMOS AGENCIAS. <br/>
+<span class="text-gold-gradient drop-shadow-lg">LAS AYUDAMOS A CRECER CORRECTAMENTE.</span>
+</p>
+<p class="text-gray-400 text-sm md:text-base max-w-2xl mx-auto mt-6 leading-relaxed">
+          Más que un intermediario, somos tus socios estratégicos con 3 años consecutivos de liderazgo comprobado en toda la plataforma Layla.
+        </p>
+<div class="mt-8 flex items-center justify-center gap-4">
+<button class="px-8 py-3.5 rounded-full bg-transparent border-2 border-gold-400/80 hover:bg-gold-400/10 text-gold-300 font-bold tracking-wider uppercase text-xs transition-all flex items-center gap-2" onclick="contactWhatsApp('¡Hola! Quiero coordinar una videollamada de asesoría para mi agencia.')">
+<i class="fa-solid fa-phone text-xs"></i>
+<span>Hablar con un Asesor Senior</span>
+</button>
+</div>
+</div>
+</section>
+<!-- END: AgencyPhilosophySection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="border-t border-gold-500/20 bg-obsidian py-14 relative z-10 text-xs text-gray-400">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Top footer: Layla & Artemisa Co-Branding -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 pb-10 border-b border-white/10">
+<!-- Artemisa Brand -->
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full border border-gold-500/40 bg-purple-950 flex items-center justify-center font-cinzel font-bold text-gold-400 text-lg">
+            A
+          </div>
+<div>
+<span class="font-cinzel font-bold text-sm tracking-wider text-white block">ARTEMISA STREAMER AGENCY</span>
+<span class="text-[10px] text-gray-400 tracking-widest uppercase">Representantes Oficiales en LATAM y Brasil</span>
+</div>
+</div>
+<!-- LAYLA Official App Logo Representation (from snapshot) -->
+<div class="flex flex-col items-center md:items-end">
+<div class="flex items-center gap-2">
+<!-- Heart icon shaped app identity -->
+<div class="w-7 h-7 rounded-lg bg-pink-600/30 border border-pink-400/60 flex items-center justify-center text-pink-300">
+<i class="fa-solid fa-heart text-xs"></i>
+</div>
+<span class="font-cinzel font-black tracking-[0.25em] text-white text-xl">LAYLA</span>
+</div>
+<span class="text-[9px] tracking-[0.35em] text-purple-300/80 uppercase font-semibold mt-0.5">Live Your Own Show</span>
+</div>
+</div>
+<!-- Bottom footer: Legal & Disclaimer -->
+<div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-[11px]">
+<p>
+          © 2026 Artemisa Streamer Agency. Todos los derechos reservados. Layla Live App es una marca registrada de sus respectivos titulares.
+        </p>
+<div class="flex items-center gap-6">
+<a class="hover:text-gold-300 transition-colors" href="#">Términos de Servicio</a>
+<a class="hover:text-gold-300 transition-colors" href="#">Política de Privacidad</a>
+<a class="hover:text-gold-300 transition-colors" href="#">Código de Conducta Streamers</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: FloatingWhatsAppButton -->
+<!-- Fixed WhatsApp Floating Button in Bottom-Right Corner -->
+<div class="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+<!-- Bubble badge tooltip -->
+<div class="hidden md:flex items-center px-3 py-1.5 rounded-xl bg-midnight/90 border border-gold-500/40 shadow-xl text-white text-xs font-medium animate-bounce">
+<span class="text-gold-300 mr-1">✦</span> ¿Dudas? ¡Escríbenos ahora!
+    </div>
+<button aria-label="Contactar a Artemisa Agency por WhatsApp" class="w-14 h-14 rounded-full bg-gradient-to-tr from-green-500 to-emerald-400 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group border-2 border-amber-300" onclick="contactWhatsApp('¡Hola Artemisa! Vengo de su página web y quiero asesoría para sumar mi agencia/streamers a Layla.')">
+<i class="fa-brands fa-whatsapp group-hover:rotate-12 transition-transform"></i>
+</button>
+</div>
+<!-- END: FloatingWhatsAppButton -->
+<!-- BEGIN: Scripts -->
+<script data-purpose="whatsapp-integration">
+    /**
+     * Function to trigger WhatsApp redirect with prefilled custom text
+     * Artemisa Official WhatsApp Line
+     */
+    function contactWhatsApp(customMessage) {
+      // Clean phone number (international format without + or spaces)
+      // Representing Artemisa Management desk
+      const phoneNumber = "5215500000000"; 
+      const encodedText = encodeURIComponent(customMessage || "Hola Artemisa Streamer Agency, quiero información para dar de alta mi agencia en Layla.");
+      const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedText}`;
+      window.open(url, '_blank');
+    }
+  </script>
+<script data-purpose="commission-calculator-logic">
+    /**
+     * Interactive slider logic to dynamically calculate the agency commission rate (24% to 40%)
+     */
+    const slider = document.getElementById('streamerRange');
+    const streamerCountDisplay = document.getElementById('streamerCountDisplay');
+    const commissionRateDisplay = document.getElementById('commissionRateDisplay');
+    const tierLevelDisplay = document.getElementById('tierLevelDisplay');
+
+    function updateCalculator(value) {
+      const count = parseInt(value, 10);
+      streamerCountDisplay.innerText = `${count} Streamer${count > 1 ? 's' : ''}`;
+
+      if (count <= 5) {
+        commissionRateDisplay.innerText = "24%";
+        tierLevelDisplay.innerText = "Tier 1 (Apertura)";
+        tierLevelDisplay.className = "text-xs font-bold uppercase text-gray-300 tracking-wider";
+      } else if (count <= 15) {
+        commissionRateDisplay.innerText = "28%";
+        tierLevelDisplay.innerText = "Tier 2 (Pro Crecimiento)";
+        tierLevelDisplay.className = "text-xs font-bold uppercase text-purple-300 tracking-wider";
+      } else if (count <= 35) {
+        commissionRateDisplay.innerText = "34%";
+        tierLevelDisplay.innerText = "Tier 3 (Avanzada VIP)";
+        tierLevelDisplay.className = "text-xs font-bold uppercase text-amber-300 tracking-wider";
+      } else {
+        commissionRateDisplay.innerText = "40%";
+        tierLevelDisplay.innerText = "Tier 4 (Master Agency #1)";
+        tierLevelDisplay.className = "text-xs font-bold uppercase text-gold-400 font-cinzel tracking-wider";
+      }
+    }
+
+    if (slider) {
+      slider.addEventListener('input', (e) => {
+        updateCalculator(e.target.value);
+      });
+      // Initial run
+      updateCalculator(slider.value);
+    }
+
+    function requestCalculatedTier() {
+      const count = slider ? slider.value : '12';
+      const rate = commissionRateDisplay ? commissionRateDisplay.innerText : '28%';
+      const message = `Hola Artemisa Agency, calculé mi agencia para ${count} streamers y me corresponde la tasa de ${rate}. Quiero iniciar mi postulación.`;
+      contactWhatsApp(message);
+    }
+  </script>
+<script data-purpose="form-submission-handler">
+    /**
+     * Handle the agency evaluation profile submission
+     */
+    function handleEvaluationSubmit(event) {
+      event.preventDefault();
+      
+      const name = document.getElementById('evalName').value.trim();
+      const phone = document.getElementById('evalPhone').value.trim();
+      const country = document.getElementById('evalCountry').value;
+      const type = document.getElementById('evalType').value;
+      const profiles = document.getElementById('evalProfiles').value.trim();
+      const feedback = document.getElementById('formFeedback');
+
+      const fullMessage = `📋 *NUEVA POSTULACIÓN PARA EVALUACIÓN - LAYLA / ARTEMISA*\n\n` +
+                          `👤 *Nombre/Agencia:* ${name}\n` +
+                          `📱 *WhatsApp:* ${phone}\n` +
+                          `🌎 *País:* ${country}\n` +
+                          `⭐ *Modalidad:* ${type}\n` +
+                          `🔗 *Perfiles/IDs:* ${profiles}`;
+
+      if (feedback) {
+        feedback.innerText = "¡Información procesada! Redirigiendo a un asesor de Artemisa con tu solicitud...";
+        feedback.classList.remove('hidden');
+      }
+
+      setTimeout(() => {
+        contactWhatsApp(fullMessage);
+        if (feedback) {
+          feedback.innerText = "Solicitud enviada correctamente vía WhatsApp. ¡Pronto te responderemos!";
+        }
+      }, 700);
+    }
+  </script>
+<!-- END: Scripts -->
+</body></html>
